@@ -1,0 +1,471 @@
+[01-Nov-2023 14:14:00 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bitrix/www/bitrix/modules/main/include/prolog_before.php' (include_path='.:/usr/share/php') in /var/www/bitrix/local/import/bitrix_header.php:10
+Stack trace:
+#0 /var/www/bitrix/local/import/init.php(3): require_once()
+#1 /var/www/bitrix/local/ajax/get_youtube_img.php(3): require_once('...')
+#2 {main}
+  thrown in /var/www/bitrix/local/import/bitrix_header.php on line 10
+[01-Nov-2023 14:14:25 Europe/Moscow] PHP Fatal error:  Uncaught Error: Failed opening required '/home/bitrix/www/bitrix/modules/main/include/prolog_before.php' (include_path='.:/usr/share/php') in /var/www/bitrix/local/import/bitrix_header.php:10
+Stack trace:
+#0 /var/www/bitrix/local/import/init.php(3): require_once()
+#1 /var/www/bitrix/local/ajax/get_youtube_img.php(3): require_once('...')
+#2 {main}
+  thrown in /var/www/bitrix/local/import/bitrix_header.php on line 10
+[02-Nov-2023 12:17:57 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 12:18:08 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 12:18:35 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 12:19:19 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 12:19:37 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 12:19:57 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 12:20:16 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:02:36 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:02:36 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:03:17 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:20:08 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:20:09 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:20:20 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:20:30 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:20:30 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:20:44 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:20:52 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:21:03 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:21:24 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:22:25 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:27:49 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:28:08 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[02-Nov-2023 13:29:08 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:43:20 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:43:20 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:24 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:43:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:54 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:54 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:54 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:54 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:43:54 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:55 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:43:55 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:43:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:44:02 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:44:02 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:44:02 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:52:51 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:52:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:52:55 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:52:55 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:52:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:52:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:52:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:52:58 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:52:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:10 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:10 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:10 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:14 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:14 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:14 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:14 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:53:14 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 11:53:14 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:14 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 11:53:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:03:54 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:03:54 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:19 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:19 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:19 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:25 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:04:25 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:32 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:32 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:32 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:32 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:04:32 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:38 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:04:38 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:04:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:45 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:45 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:45 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:04:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:07:38 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:07:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:07 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:07 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:07 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:08 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:08:08 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:12 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:12 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:12 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:31 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:08:31 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:08:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:34 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:34 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:08:34 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:01 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:01 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:01 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:03 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:03 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:05 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:05 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:06 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:06 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:06 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:10 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:10 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:11 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:11 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:20 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:20 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:20 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:22 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:22 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:22 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:25 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:25 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:25 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:25 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:28 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:28 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:28 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:42 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:42 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:46 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:46 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:46 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:46 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:46 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:51 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:51 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:09:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:09:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:10:03 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:10:03 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:10:03 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:15:57 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:15:57 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:16:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:16:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:16:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:16:35 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:16:35 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:16:43 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:16:43 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:16:43 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:24:18 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:24:18 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:24:18 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:24:18 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:24:35 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:24:35 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:24:35 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:44:27 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[03-Nov-2023 12:44:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:45:04 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:45:04 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[03-Nov-2023 12:45:04 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:38:58 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:38:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:02 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:39:02 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:31 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:39:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:32 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:39:32 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:40 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:40 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:40 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:46 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:46 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:39:46 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 01:42:38 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:42:39 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:43:40 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:43:55 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:44:04 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:44:34 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:45:01 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:45:32 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:46:14 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:46:21 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:47:40 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:49:45 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:49:46 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:50:26 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:50:31 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:50:42 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:50:53 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:50:53 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:50:53 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:51:07 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:51:17 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:51:27 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 01:51:27 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 12:15:53 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 12:15:53 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:16:46 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 12:16:46 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:16:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:16:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:16:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:16:53 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:16:53 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:16:53 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:18:38 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 12:18:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:18:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:18:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 12:18:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:26 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:28:26 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:29 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:28:29 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:40 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:28:40 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:28:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:50 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:28:50 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:28:57 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:28:57 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[04-Nov-2023 20:29:02 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[04-Nov-2023 20:29:02 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:43:19 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:43:19 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:44:30 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:44:30 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:44:31 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:44:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:44:32 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:44:32 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:44:32 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:44:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:44:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:44:38 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:03 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:45:03 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:14 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:14 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:14 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:15 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:45:15 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:36 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:36 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:36 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:56 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:45:56 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:59 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:59 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:45:59 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:19 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:19 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:19 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:21 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:46:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:21 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:46:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:29 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:46:29 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:37 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:46:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:46:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:00 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:00 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:00 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:03 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:47:03 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:11 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:11 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:11 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:00 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:00 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:47:00 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:21 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:50:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:50 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:50 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:50 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:52 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:50:52 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:52 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:50:52 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:50:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:19 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:51:19 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:27 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:51:27 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:37 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:49 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:51:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:52:08 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:52:08 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 17:52:08 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:04 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:35:04 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:31 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:35:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:31 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:35:31 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:34 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:34 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:34 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:45 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:35:45 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:54 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:54 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:54 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:55 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:35:55 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:55 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:35:55 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:35:58 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:09 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:09 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:21 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:22 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:22 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:22 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:22 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:24 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:26 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:26 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:26 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:26 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:28 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:28 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:39 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:47 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:47 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:48 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:48 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:48 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:48 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:51 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:53 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:53 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:53 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:53 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:53 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Log Files] File '/var/log/xdebug.log' could not be opened.
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:42:57 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:02 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:02 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:02 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:06 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:06 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:06 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:09 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:09 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
+[12-Nov-2023 19:43:09 Europe/Moscow] Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9000 (through xdebug.client_host/xdebug.client_port).
