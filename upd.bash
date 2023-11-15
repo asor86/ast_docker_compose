@@ -1,0 +1,1 @@
+docker pull mysql:8.0 && docker pull phpdockerio/php:8.1-fpm && docker pull nginx:1.20.2

@@ -1,0 +1,143 @@
+volumes:
+  db:
+    driver: local
+  cache:
+    driver: local
+
+networks:
+  bitrixdock:
+
+services:
+  php:
+    build: ./${PHP_VERSION}
+    container_name: '${COMPOSE_PROJECT_NAME}_php'
+    volumes_from:
+      - source
+    links:
+      - db
+      - memcached
+ #     - sphinx:sphinxsearch
+    environment:
+      - TZ=Europe/Moscow
+      - SPHINX_SERVER=sphinxsearch
+    stdin_open: true
+    tty: true
+    networks:
+      - bitrixdock
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+#  sphinx:
+#      image: sphinxdoc/sphinx
+#      container_name: '${COMPOSE_PROJECT_NAME}_sphinx'
+#      ports:
+#        - '${INTERFACE}:9306:9306'
+#      volumes:
+#        - ./sphinx/conf:/etc/sphinx
+#        - ./sphinx/data:/var/data/sphinx
+#      environment:
+#        - TZ=Europe/Moscow
+#      networks:
+#        - bitrixdock
+#      stdin_open: true
+#      tty: true
+#      restart: unless-stopped    
+  web_server:
+    build: ./${WEB_SERVER_TYPE}
+    container_name: '${COMPOSE_PROJECT_NAME}_web_server'
+    depends_on:
+      - source
+    volumes_from:
+      - source
+    ports:
+      - '${INTERFACE}:80:80'
+      - '${INTERFACE}:443:443'
+    links:
+      - php
+    networks:
+      - bitrixdock
+    environment:
+      - TZ=Europe/Moscow
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+  db:
+    build: ./${DB_SERVER_TYPE}
+    container_name: '${COMPOSE_PROJECT_NAME}_db'
+    volumes:
+      - ./${DB_SERVER_TYPE}/init:/docker-entrypoint-initdb.d
+    volumes_from:
+      - source
+    ports:
+      - '${INTERFACE}:3306:3306'
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      TZ: Europe/Moscow
+    command: mysqld --user=root --sql-mode=""
+    networks:
+      - bitrixdock
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+  mongodb:
+    image: mongo:latest
+    container_name: '${COMPOSE_PROJECT_NAME}_mongodb'
+    ports:
+      - '${INTERFACE}:27017:27017'
+    volumes:
+      - ${SITE_PATH}/bitrix/backup:/home      
+    environment:
+      - TZ=Europe/Moscow
+    networks:
+      - bitrixdock
+    stdin_open: true
+    tty: true
+    restart: unless-stopped    
+  memcached:
+    image: memcached:latest
+    container_name: '${COMPOSE_PROJECT_NAME}_memcached'
+    volumes_from:
+      - source
+    ports:
+      - '${INTERFACE}:11211:11211'
+    networks:
+      - bitrixdock
+    environment:
+      - TZ=Europe/Moscow
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+  adminer:
+    image: dockette/adminer:full
+    container_name: '${COMPOSE_PROJECT_NAME}_adminer'
+    links:
+      - db:db
+    ports:
+      - '${INTERFACE}:8080:80'
+    environment:
+      UPLOAD: 1024M # upload_max_filesize, post_max_size
+      TZ: Europe/Moscow
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    networks:
+      - bitrixdock
+  source:
+    image: alpine:latest
+    container_name: '${COMPOSE_PROJECT_NAME}_source'
+    volumes:
+      - ./logs/${WEB_SERVER_TYPE}:/var/log/${WEB_SERVER_TYPE}
+      - ./logs/php:/var/log/php
+      - ./logs/db:/var/log/mysql
+      - ./logs/memcached:/var/log/memcached
+      - db:/var/lib/mysql
+      - cache:/var/lib/memcached
+      - ${SITE_PATH}:/var/www/bitrix
+      - ./www/bitrix/.settings.php:/var/www/bitrix/bitrix/.settings.php
+      - ./www/bitrix/php_interface/dbconn.php:/var/www/bitrix/bitrix/php_interface/dbconn.php
+      - /etc/localtime:/etc/localtime/:ro
+    networks:
+      - bitrixdock
